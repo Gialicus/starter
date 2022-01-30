@@ -1,3 +1,3 @@
 import tap from 'tap';
 
-tap.test('', (t) => t.pass());
+tap.test('', async (t) => t.pass());
