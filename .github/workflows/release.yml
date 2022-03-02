@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v2.5.1
         with:
           node-version: 14
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: bahmutov/npm-install@v1
@@ -31,7 +31,7 @@ jobs:
       - uses: actions/setup-node@v2.5.1
         with:
           node-version: 14
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
